@@ -26,9 +26,9 @@ conn.sync({ force: true }).then(() => {
   server.listen(process.env.PORT, () => {
     console.log('BACKEND ====> listening at 3001'); // eslint-disable-line no-console
 
-    allGenres();
-    allPlatforms();
-    console.log('All videogames genres and platforms downloaded to DB');
+//     allGenres();
+//     allPlatforms();
+//     console.log('All videogames genres and platforms downloaded to DB');
     
   });
 });
